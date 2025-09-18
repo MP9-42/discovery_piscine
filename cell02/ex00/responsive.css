@@ -1,0 +1,47 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: MP9 <mikjimen@student.42heilbronn.de>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/09/16 16:09:23 by MP9               #+#    #+#             */
+/*   Updated: 2025/09/16 16:42:48 by MP9              ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+table {
+	width: 100dvw;
+	height: 100dvh;
+	border-collapse: collapse;
+	margin: auto;
+}
+a {
+   font-family: arial;
+}
+.c1, .c2 {
+	border: 0.1em solid black;
+	padding: 0%;
+	text-align: left;
+}
+.c1 {
+	width: 50%;
+	height: 100%;
+	background-color: #e51010;
+}
+.c2 {
+   width: 50%;
+   height: 100%;
+   background-color: rgb(11, 11, 218);
+}
+.a2 {
+	color: rgb(255, 0, 0);
+}
+.a1 {
+	color: rgb(23, 8, 239);
+}

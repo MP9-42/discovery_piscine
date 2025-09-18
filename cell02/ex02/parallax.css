@@ -1,0 +1,54 @@
+
+  body, html {
+	height: 100%;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(240, 232, 232);
+	scroll-behavior: smooth;
+	height: 100%;
+	margin: 0;
+  }
+
+  /* Section 1: Full viewport with background image and centered message */
+  .section1 {
+	position: relative;
+	height: 100vh;
+	background: url('https://image.wmsm.co/651f34dcc05f6/leuchtturm-barra-salvador.webp?quality=80&width=1200&height=630&aspect_ratio=1200%3A630') no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+  }
+
+  .section1 .message {
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-size: 1.5rem;
+  }
+
+  /* Section 2: Black block with message */
+  .section2 {
+	background-color: black;
+	color: white;
+	padding: 100px 20px;
+	text-align: center;
+	font-size: 1.5rem;
+  }
+
+  /* Section 3: Bottom image with centered message */
+  .section3 {
+	position: relative;
+	height: 100vh;
+	background: url('https://mediaim.expedia.com/destination/1/469ba3cfa5a8766af6b377fa9450ede1.jpg') no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+  }
+
+  .section3 .message {
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-size: 1.5rem;
+  }
