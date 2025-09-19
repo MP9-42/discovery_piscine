@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  html, body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+  }
+  
+  /* Section styling */
+  section {
+	margin-bottom: 40px;
+	height: 100dvh;
+	width: 100dvw;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Welcome message styling */
+  .message {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* Link container using Flexbox */
+  .links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 30px; /* spacing between links */
+	flex-wrap: wrap;
+  }
+  
+  /* Link styling */
+  .links a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #3498db;
+	background-color: white;
+	border: 2px solid #3498db;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+  }
+  .section1
+  {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: url('https://image.wmsm.co/651f34dcc05f6/leuchtturm-barra-salvador.webp?quality=80&width=1200&height=630&aspect_ratio=1200%3A630') no-repeat center center/cover;
+}
+  .links a:hover {
+	background-color: #3498db;
+	color: #fff;
+  }
+  
+  /* Section 2 paragraph */
+  .section2 p {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #27ae60;
+  }
+  
+  /* End message */
+  .section3 .message {
+	color: #8e44ad;
+  }
+  .section1, .section2, .section3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  }
