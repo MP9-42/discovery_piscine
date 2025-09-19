@@ -90,31 +90,36 @@
 	border-radius: 5px;
 	transition: all 0.3s ease;
   }
-  .section1
+  #section1
   {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-  .links a:hover {
-	background-color: #3498db;
-	color: #fff;
-  }
-  
   /* Section 2 paragraph */
-  .section2{
+  #section2{
 	font-size: 1.5rem;
 	text-align: center;
 	background-color: white;	
   }
-  .section2 .message {
+  #section2 .message {
 	color: aqua;
   }
-  /* End message */
-  .section3 .message {
-	color: #8e44ad;
+  #section3 {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
   }
-  .section1, .section2, .section3 {
+  /* End message */
+  #section3 .message {
+	background-color: white;
+	margin-top: 20px;
+	font-family: monospace;
+	font-size: 0.9em;
+	display: block;
+	text-align: right;
+  }
+  #section1, .section2, .section3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
